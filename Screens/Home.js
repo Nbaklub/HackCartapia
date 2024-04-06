@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from "react";
-import {Text, View, SafeAreaView, ScrollView} from "react-native";
+import {Text, View, SafeAreaView, ScrollView, TouchableOpacity} from "react-native";
 import {Header} from "../components/Header";
 import {News} from "../components/News";
 import {collection, getDocs, query, where, orderBy, doc} from "firebase/firestore";
 import {firestroe} from "../App";
 /*import axios from "axios";*/
-const Home = () => {
+const Home = ({navigation}) => {
+
     /*const [response, setResponse]=useState('')*/
     const [news, setNews] = useState([]);
     /*const fetchAIResponse = async () => {
@@ -43,7 +44,7 @@ const Home = () => {
     })
   return(
       <View>
-          <Header />
+          <Header navigation={navigation} />
           {/*News*/}
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
               {news.map(news=>(

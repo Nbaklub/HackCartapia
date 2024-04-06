@@ -16,8 +16,7 @@ const styles = StyleSheet.create({
         width: 150,
         height: "auto",
         borderRadius: 20,
-        borderWidth: 2,
-        borderColor: 'gray'
+        backgroundColor: '#E5E5E5',
     },
     Image: {
         width: 146,
