@@ -4,7 +4,6 @@ import Icon from 'react-native-vector-icons/Entypo'
 const Header = () => {
     return (
         <View style={styles.main}>
-
             <Icon name="menu" size={40} color="black"/>
         </View>
     );
