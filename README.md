@@ -1,7 +1,6 @@
 # RzeszówLIVE
 
-[![RzeszówLIVE! HackCarpathia]          // Title
-(https://firebasestorage.googleapis.com/v0/b/hackathon-18f7d.appspot.com/o/miniaturka.png?alt=media&token=f60f49c9-5b50-43e9-8dfb-55f13c0e0e3f)] // Thumbnail
+
 (https://www.youtube.com/watch?v=ZdZbmkqqkH4 "RzeszówLIVE! HackCarpathia")
 
 ## Opis projektu
