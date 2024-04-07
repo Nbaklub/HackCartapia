@@ -11,12 +11,13 @@ const News = ({name, imageURL, date}) => {
 }
 const styles = StyleSheet.create({
     main: {
-        marginTop: 20,
+        marginTop: 10,
         marginLeft: 10,
         width: 150,
         height: "auto",
         borderRadius: 20,
         backgroundColor: '#E5E5E5',
+        paddingBottom: 10
     },
     Image: {
         width: 146,
